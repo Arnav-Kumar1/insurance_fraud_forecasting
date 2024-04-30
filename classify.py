@@ -14,7 +14,7 @@ def import_rf_model():
 # Run the app
 if __name__ == '__main__':
 
-    model = YOLO('models/damage_classifier.pt')
+    model = YOLO('damage_classifier.pt')
 
     image_path = "Damage_classification_dataset/test/minor/0094.JPEG"
 
