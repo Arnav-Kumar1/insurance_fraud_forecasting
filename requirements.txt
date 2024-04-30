@@ -1,5 +1,5 @@
 streamlit
-opencv-python-headless
+python3-opencv
 keras==2.15.0
 ultralytics==8.1.24
 xgboost==2.0.3
