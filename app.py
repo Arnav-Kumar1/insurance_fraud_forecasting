@@ -59,13 +59,13 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 
 # Load the trained Random Forest model
-with open('models/rf_binary_classifier.pkl', 'rb') as file:
+with open('rf_binary_classifier.pkl', 'rb') as file:
     rf_model = pickle.load(file)
 
 
 # Load YOLO models
-severity_model = YOLO('models/damage_classifier.pt')
-detection_model = YOLO('models/damage_detector.pt')
+severity_model = YOLO('damage_classifier.pt')
+detection_model = YOLO('damage_detector.pt')
 
 # Mapping dictionary for class IDs to labels for damage detection
 class_mapping = {
