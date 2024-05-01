@@ -7,4 +7,5 @@ seaborn
 matplotlib
 scikit-learn
 supervision
+opencv-python
 streamlit
